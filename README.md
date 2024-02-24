@@ -97,6 +97,13 @@ Step 4 :Click Create Record
 
 Step 5 :Copy the nameservers in the from the table field NS (There will be 4 nameservers. Discard the dot at the end)
 
+Step 6 : Paste it in your (Hostinger/GodDaddy) nameserver .
+
+Step 7 : Now you can add your subdomin by clicking add record in your Route 53 and specify the IP address of your instance (A Record).
+
+Step 8 : Hola, Your DNS is configured , It might take sometime to update the nameserver 
+
+
 
 
 ![image](https://github.com/Sreeragpa/NodeJS-Deployment-AWS/assets/84066738/3baf928d-1cdb-49f9-a03f-2f188a496178)
