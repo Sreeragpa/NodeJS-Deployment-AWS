@@ -1,5 +1,4 @@
-# NodeJS-Deployment-AWS
-# Node.js Deployment
+# 🚀 Node.js Deployment on AWS 🛠️
 
 > Steps to deploy a Node.js app using PM2, NGINX as a reverse proxy and an SSL from LetsEncrypt
 
@@ -98,9 +97,10 @@ Step 5 :Copy the nameservers in the from the table field NS (There will be 4 nam
 
 ## 9. Add SSL with LetsEncrypt
 ```
-sudo add-apt-repository ppa:certbot/certbot
-sudo apt-get update
-sudo apt-get install python3-certbot-nginx
+sudo apt update
+sudo apt install snapd
+sudo snap install --classic certbot
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
 sudo certbot --nginx -d yourdomain.com -d www.yourdomain.com
 
 # Only valid for 90 days, test the renewal process with
