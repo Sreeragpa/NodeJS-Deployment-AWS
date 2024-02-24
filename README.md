@@ -81,11 +81,15 @@ sudo nginx -s reload
 ```
 ## 8. Manage your DNS Using Route 53 (Routing your domain to the instance ip) !!Before doing this you need to purchase a domain from hostinger or godaddy
 Step 1 :Search for Route 53 in AWS 
+
 Step 2 :Click Create Hosted Zones   ( Route 53>Hosted zones>Create hosted zone)
+
 Step 3 :Enter your Domain Name in the Domain Name Field in Hosted zone configuration
+
 Step 4 :Click Create Record
-Step 5 :Copy the nameservers in the from the table field NS (There will be 4 nameservers. Discard the do)
-Step 5 :Copy the nameservers in the from the table field NS (There will be 4 nameservers. Discard the do)
+
+Step 5 :Copy the nameservers in the from the table field NS (There will be 4 nameservers. Discard the dot at the end)
+
 
 
 ![image](https://github.com/Sreeragpa/NodeJS-Deployment-AWS/assets/84066738/3baf928d-1cdb-49f9-a03f-2f188a496178)
