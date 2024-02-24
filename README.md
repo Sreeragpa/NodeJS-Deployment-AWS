@@ -5,7 +5,7 @@
 ## 1. Create Free AWS Account
 Create free AWS Account at https://aws.amazon.com/
 
-## 2. Create and Lauch an EC2 instance and SSH into machine
+## 2. Create and Launch an EC2 instance and SSH into machine
 
 
 ## 3. Install Node and NPM
