@@ -58,17 +58,24 @@ sudo apt install nginx
 
 sudo nano /etc/nginx/sites-available/default
 ```
-Add the following to the location part of the server block
+Clear the Default file And Add the following 
 ```
-    server_name yourdomain.com www.yourdomain.com;
+  server {
+        listen 80 default_server;
+        listen [::]:80 default_server;
 
-    location / {
-        proxy_pass http://localhost:8001; #whatever port your app runs on
-        proxy_http_version 1.1;
-        proxy_set_header Upgrade $http_upgrade;
-        proxy_set_header Connection 'upgrade';
-        proxy_set_header Host $host;
-        proxy_cache_bypass $http_upgrade;
+        root /var/www/html;
+        index index.html index.htm index.nginx-debian.html;
+
+        server_name _;
+
+        location / {
+            proxy_pass http://localhost:3000;  #whatever port your app runs on
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto $scheme;
+        }
     }
 ```
 ```
