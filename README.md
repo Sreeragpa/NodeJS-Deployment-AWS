@@ -78,7 +78,8 @@ sudo nginx -t
 # Restart NGINX
 sudo nginx -s reload
 ```
-## 8. Manage your DNS Using Route 53 (Routing your domain to the instance ip) !!Before doing this you need to purchase a domain from hostinger or godaddy
+## 8. Set up DNS with Route 53 🌐 (Before you begin, purchase a domain from Hostinger or GoDaddy)
+
 Step 1 :Search for Route 53 in AWS 
 
 Step 2 :Click Create Hosted Zones   ( Route 53>Hosted zones>Create hosted zone)
