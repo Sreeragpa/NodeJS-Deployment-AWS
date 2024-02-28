@@ -129,6 +129,7 @@ certbot renew --dry-run
 
 
 ## EXTRAS
+# NGINX COMMANDS
 ```
 Stop: sudo systemctl stop nginx
 Start: sudo systemctl start nginx
