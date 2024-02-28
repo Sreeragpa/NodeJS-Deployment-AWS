@@ -17,6 +17,12 @@ curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt install nodejs
 
 node --version
+
+UPDATE NODEJS VERSION (Optional)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+source ~/.bashrc
+nvm install v20.5.1
+
 ```
 
 ## 4. Clone your project from Github and Adding .env
