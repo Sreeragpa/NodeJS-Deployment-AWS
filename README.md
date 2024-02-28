@@ -124,3 +124,17 @@ sudo certbot --nginx -d yourdomain.com -d www.yourdomain.com
 # Only valid for 90 days, test the renewal process with
 certbot renew --dry-run
 ```
+
+
+
+
+## EXTRAS
+```
+Stop: sudo systemctl stop nginx
+Start: sudo systemctl start nginx
+Restart: sudo systemctl restart nginx
+Reload: sudo systemctl reload nginx
+Disable: sudo systemctl disable nginx
+Enable: sudo systemctl enable nginx
+Check status: sudo systemctl status nginx
+```
