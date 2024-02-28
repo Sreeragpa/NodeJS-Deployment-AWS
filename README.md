@@ -139,3 +139,34 @@ Disable: sudo systemctl disable nginx
 Enable: sudo systemctl enable nginx
 Check status: sudo systemctl status nginx
 ```
+### PM2 COMMANDS
+```
+pm2 start: - Starts a new process.
+pm2 list: - Lists all running processes.
+pm2 stop: - Stops a running process.
+pm2 restart: - Restarts a running process.
+pm2 reload: - Reloads a running process without downtime.
+pm2 delete: - Deletes a process from the PM2 process list.
+pm2 logs: - Displays the logs for a running process.
+pm2 monit: - Opens a real-time monitoring dashboard for all running processes.
+pm2 save: - Saves the current process list to a file.
+pm2 startup: - Configures PM2 to run as a daemon service.
+
+Example : pm2 start <processid> OR pm2 start all
+```
+### LINUX COMMANDS
+```
+ls - The most frequently used command in Linux to list directories
+pwd - Print working directory command in Linux
+cd - Linux command to navigate through directories
+mkdir - Command used to create directories in Linux
+mv - Move or rename files in Linux
+cp - Similar usage as mv but for copying files in Linux
+rm - Delete files or directories
+touch - Create blank/empty files
+sudo - super user do  (It is equal to the option "run as administrator" in Windows.)
+clear - To clear the terminal
+wget - Download files from the internet
+sudo apt-get update - Update the package lists for available software packages from the configured repositories.
+sudo apt-get upgrade - Install the latest versions of the packages currently installed on the user’s system from the sources enumerated in /etc/apt/sources.list.
+```
