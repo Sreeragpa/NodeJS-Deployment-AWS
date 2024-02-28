@@ -10,6 +10,9 @@ Create free AWS Account at https://aws.amazon.com/
 
 ## 3. Install Node and NPM
 ```
+sudo apt update
+sudo apt upgrade
+
 curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt install nodejs
 
