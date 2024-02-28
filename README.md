@@ -113,7 +113,7 @@ Step 8 : Hola, Your DNS is configured , It might take sometime to update the nam
 
 
 
-## 9. Add SSL with LetsEncrypt
+## 9. Add SSL with LetsEncrypt 🗝️
 ```
 sudo apt update
 sudo apt install snapd
