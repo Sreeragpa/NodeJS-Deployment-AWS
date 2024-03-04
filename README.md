@@ -37,7 +37,7 @@ nano .env
 
 ## 5. Install dependencies and test app
 ```
-sudo npm i pm2 -g   
+npm i pm2 -g   
 pm2 start index
 
 # Other pm2 commands
@@ -128,7 +128,7 @@ sudo ln -s /snap/bin/certbot /usr/bin/certbot
 sudo certbot --nginx -d yourdomain.com -d www.yourdomain.com
 
 # Only valid for 90 days, test the renewal process with
-certbot renew --dry-run
+sudo certbot renew --dry-run
 ```
 
 
